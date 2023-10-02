@@ -1,0 +1,28 @@
+{
+  "name": "serverdatn",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "~1.4.4",
+    "crypto": "^1.0.1",
+    "debug": "~2.6.9",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^9.0.2",
+    "mine": "^0.1.0",
+    "mongodb": "^6.1.0",
+    "mongoose": "^7.5.2",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.1",
+    "path": "^0.12.7",
+    "pug": "^3.0.2",
+    "rimraf": "^5.0.5"
+  }
+}
